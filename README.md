@@ -16,12 +16,14 @@ FEWEC is a powerful tool designed to solve finite element problems for waveguide
 
 ### Applications
 
-FEWEC has been successfully used as for the **topology optimization of phase shifters**, as demonstrated in the work:
+FEWEC has been successfully used for the **topology optimization of phase shifters**, as demonstrated in the work:
 
 > Beñat Martinez de Aguirre Jokisch, Rasmus Ellebæk Christiansen, and Ole Sigmund,  
 > "Topology optimization framework for designing efficient thermo-optical phase shifters,"  
 > *Journal of the Optical Society of America B*, 41(2), A18-A31 (2024).  
 > [Read the paper](https://doi.org/10.1364/JOSAB.499979)
+
+FEWEC can also be used as a foundation to develop advanced topology optimization frameworks in photonics and related fields.
 
 ---
 
