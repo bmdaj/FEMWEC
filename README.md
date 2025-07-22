@@ -1,10 +1,10 @@
-# FEMWEC
+# FEWEC
 
-**Finite Element Waveguide Eigenmode Calculation (FEMWEC)**
+**Finite Element Waveguide Eigenmode Calculation (FEWEC)**
 
 ---
 
-FEMWEC is a powerful tool designed to solve finite element problems for waveguide cross sections to accurately compute eigenmodes. It employs the finite element method (FEM) using vector elements, enabling precise and flexible modeling of complex waveguide structures.
+FEWEC is a powerful tool designed to solve finite element problems for waveguide cross sections to accurately compute eigenmodes. It employs the finite element method (FEM) using vector elements, enabling precise and flexible modeling of complex waveguide structures.
 
 ### Key Features
 
@@ -16,7 +16,7 @@ FEMWEC is a powerful tool designed to solve finite element problems for waveguid
 
 ### Applications
 
-FEMWEC has been successfully used as part of the thesis for **topology optimization of phase shifters**, as demonstrated in the work:
+FEWEC has been successfully used as for the **topology optimization of phase shifters**, as demonstrated in the work:
 
 > Beñat Martinez de Aguirre Jokisch, Rasmus Ellebæk Christiansen, and Ole Sigmund,  
 > "Topology optimization framework for designing efficient thermo-optical phase shifters,"  
@@ -34,7 +34,7 @@ This example computes the waveguide eigenvalue expressed as the **complex effect
 
 ### Citation
 
-If you use FEMWEC in your research or projects, please cite the following PhD thesis:
+If you use FEWEC in your research or projects, please cite the following PhD thesis:
 
 ```bibtex
 @phdthesis{99585b680429404f8f9a5667c0cec354,
