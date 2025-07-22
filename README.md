@@ -3,11 +3,11 @@
 
 ---
 
-FEWEC is a powerful tool designed to solve finite element problems for waveguide cross sections to accurately compute eigenmodes. It employs the finite element method (FEM) using vector elements, enabling precise and flexible modeling of complex waveguide structures.
+FEWEC is a tool designed to solve finite element problems for waveguide cross sections to accurately compute eigenmodes. It employs the finite element method (FEM) using vector elements, enabling precise and flexible modeling of complex waveguide structures.
 
 ### Key Features
 
-- Calculates **eigenmodes** of waveguides with high accuracy.
+- Calculates **eigenmodes** of waveguides using the finite element method using vector elements.
 - Supports **lossy eigenmodes** computation, including modes above the cutoff frequency in waveguides with lossy materials.
 - Robust and efficient numerical implementation tailored for photonics and waveguide design.
 
