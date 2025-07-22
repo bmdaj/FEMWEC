@@ -23,7 +23,9 @@ def plot_Enorm(dis):
     extent = [-0.5*dis.nElx*dis.scaling, 0.5*dis.nElx*dis.scaling, -0.5*dis.nEly*dis.scaling, 0.5*dis.nEly*dis.scaling]
     divider = make_axes_locatable(ax)
     cax = divider.append_axes('right', size='5%', pad=0.05)
-    im = ax.imshow(np.reshape(np.real(dis.normE), (dis.nodesY, dis.nodesX)),cmap='inferno', origin="lower", extent=extent)#, origin="lower", extent=extent)#, vmax=4e5, cmap='inferno')
+    normE = np.sqrt(np.real(dis.Ex)**2 + np.real(dis.Ey)**2 + np.real(dis.Ez)**2)
+
+    im = ax.imshow(np.reshape(normE, (dis.nodesY, dis.nodesX)),cmap='inferno', origin="lower", extent=extent)#, origin="lower", extent=extent)#, vmax=4e5, cmap='inferno')
     #eps = resize(np.reshape(np.real(dis.eps), (dis.nEly, dis.nElx)), dis.nElx, dis.nEly)
     #ax.contour(np.real(eps), levels=2, cmap='binary', linewidth=2, alpha=1, extent=extent)
     fig.colorbar(im, cax=cax, orientation='vertical')
